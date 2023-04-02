@@ -12,6 +12,7 @@
 3. `./vendor/bin/sail up -d`
 4. `./vendor/bin/sail artisan migrate`
 
-## Missing Features
+## Missing Steps
 
 - [Deploying](https://bootcamp.laravel.com/deploying)
+- [Conclusion & Next Steps](https://bootcamp.laravel.com/conclusion)
