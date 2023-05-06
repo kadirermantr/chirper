@@ -10,9 +10,6 @@ class ChirpTest extends TestCase
 {
     use RefreshDatabase;
 
-    /**
-     * @test
-     */
     public function test_chirp_page_is_displayed(): void
     {
         $user = User::factory()->create();
@@ -24,10 +21,7 @@ class ChirpTest extends TestCase
         $response->assertOk();
     }
 
-    /**
-     * @test
-     */
-    public function chirp_can_be_created(): void
+    public function test_chirp_can_be_created(): void
     {
         $user = User::factory()->create();
 
@@ -47,10 +41,7 @@ class ChirpTest extends TestCase
         ]);
     }
 
-    /**
-     * @test
-     */
-    public function chirp_can_be_updated(): void
+    public function test_chirp_can_be_updated(): void
     {
         $user = User::factory()->create();
 
@@ -74,10 +65,7 @@ class ChirpTest extends TestCase
         ]);
     }
 
-    /**
-     * @test
-     */
-    public function chirp_can_be_deleted(): void
+    public function test_chirp_can_be_deleted(): void
     {
         $user = User::factory()->create();
 
