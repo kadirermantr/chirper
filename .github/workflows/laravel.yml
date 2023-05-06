@@ -32,4 +32,4 @@ jobs:
       env:
         DB_CONNECTION: mysql
         DB_DATABASE: chirper
-      run: vendor/bin/sail artisan test
+      run: vendor/bin/sail up -d && vendor/bin/sail artisan test
