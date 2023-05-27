@@ -5,7 +5,7 @@
 - **Authentication:** [Laravel Breeze](https://laravel.com/docs/starter-kits#laravel-breeze)
 - **Database Diagram:** [Diagram](https://dbdiagram.io/d/6428ec725758ac5f1725ffdb)
 
-## Install
+## Installation
 
 ```bash
 cp .env.example .env
