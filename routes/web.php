@@ -1,7 +1,10 @@
 <?php
 
-use App\Http\Controllers\ChirpController;
-use App\Http\Controllers\ProfileController;
+use App\Http\Controllers\ {
+    ChirpController,
+    ProfileController,
+};
+
 use Illuminate\Support\Facades\Route;
 
 /*
