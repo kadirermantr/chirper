@@ -1,5 +1,6 @@
 # Chirper
 
+- **Tech Stack:** [Tech Stack File](https://github.com/kadirermantr/chirper/blob/master/techstack.md)
 - **Programming Language:** PHP
 - **Framework:** Laravel
 - **Authentication:** [Laravel Breeze](https://laravel.com/docs/starter-kits#laravel-breeze)
